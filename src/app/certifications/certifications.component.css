@@ -1,0 +1,50 @@
+/* Certifications Section */
+.certifications-section {
+    padding: 4rem 0;
+    background-color: #f9f9f9;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 2rem;
+}
+
+h2 {
+    text-align: center;
+    color: #333;
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+}
+
+.certifications-grid {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center the items horizontally */
+    gap: 2rem;
+}
+
+.certification-item {
+    max-width: 90%; /* Set a max-width for better readability */
+    width: 100%; /* Full width of the container within the max-width */
+    overflow: hidden;
+    position: relative;
+    transition: transform 0.3s ease;
+}
+
+.certification-item:hover {
+    transform: scale(1.05);
+}
+
+.certification-image {
+    width: 100%;
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 8px;
+    transition: transform 0.3s ease;
+}
+
+@media (max-width: 768px) {
+    .certifications-grid {
+        flex-direction: column;
+    }
+}

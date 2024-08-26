@@ -1,0 +1,104 @@
+/* General styles for the research section */
+.research-section {
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    max-width: 1200px;
+    margin: auto;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Title of the research section */
+.research-section h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+    font-size: 24px;
+}
+
+/* Style for the list of research items */
+.research-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+/* Style for each research item */
+.research-list li {
+    margin-bottom: 20px;
+    padding: 15px;
+    background-color: #fff;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+/* Heading inside each research item */
+.research-list h3 {
+    color: #2c3e50;
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+/* Paragraph inside each research item */
+.research-list p {
+    color: #666;
+    line-height: 1.6;
+    margin: 0;
+}
+
+/* Style for nested lists */
+.research-list ul {
+    list-style-type: disc;
+    padding-left: 20px;
+    margin: 10px 0;
+}
+
+/* Style for list items in nested lists */
+.research-list ul li {
+    margin-bottom: 8px;
+    color: #666;
+}
+
+/* Bold text inside paragraphs */
+.research-list strong {
+    color: #333;
+}
+
+.tabs {
+    margin-bottom: 20px;
+}
+
+.tabs ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    border-bottom: 2px solid #333;
+}
+
+.tabs li {
+    margin-right: 10px;
+}
+
+.tabs a {
+    text-decoration: none;
+    padding: 10px 20px;
+    display: block;
+    color: #333;
+    border-radius: 4px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.tabs a:hover, .tabs a.active {
+    background-color: #333;
+    color: #fff;
+}
+
+.tab-content {
+    display: none;
+}
+
+.tab-content.active {
+    display: block;
+}
+

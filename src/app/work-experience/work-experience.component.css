@@ -1,0 +1,72 @@
+/* Work Experience Section */
+.work-experience-section {
+    padding: 4rem 0;
+    background-color: #f4f4f4;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 2rem;
+}
+
+h2 {
+    text-align: center;
+    color: #333;
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+}
+
+.work-experience-list {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.work-experience-item {
+    background-color: #fff;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    transition: transform 0.3s ease;
+}
+
+.work-experience-item:hover {
+    transform: translateY(-10px);
+}
+
+.work-icon {
+    font-size: 3rem;
+    color: #007bff;
+}
+
+.work-content h3 {
+    color: #333;
+    font-size: 1.6rem;
+    margin-bottom: 0.5rem;
+}
+
+.work-content h4 {
+    color: #666;
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+}
+
+.work-content p {
+    color: #555;
+    line-height: 1.6;
+}
+
+@media (max-width: 768px) {
+    .work-experience-item {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .work-icon {
+        margin-bottom: 1rem;
+    }
+}

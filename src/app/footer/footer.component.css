@@ -1,0 +1,43 @@
+/* Footer */
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 1.5rem 0;
+    text-align: center;
+}
+
+.footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 2rem;
+}
+
+.footer p {
+    margin: 0;
+    font-size: 1rem;
+}
+
+.footer-links {
+    margin-top: 1rem;
+}
+
+.footer-link {
+    margin: 0 0.5rem;
+    display: inline-block;
+}
+
+.footer-icon {
+    width: 24px; /* Adjust icon size as needed */
+    height: auto;
+    vertical-align: middle;
+}
+
+.footer-link:hover .footer-icon {
+    opacity: 0.8; /* Slightly fade icons on hover */
+}
+
+@media (max-width: 768px) {
+    .footer-links {
+        margin-top: 0.5rem;
+    }
+}

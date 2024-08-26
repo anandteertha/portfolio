@@ -1,0 +1,38 @@
+#work-experience {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    color: #333;
+    text-align: center;
+}
+
+.experience {
+    margin-bottom: 20px;
+}
+
+.experience h2 {
+    color: #333;
+}
+
+.experience p {
+    color: #555;
+}
+
+.experience ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+.experience ul li {
+    margin-bottom: 10px;
+}
+
+.experience h3 {
+    color: #444;
+}

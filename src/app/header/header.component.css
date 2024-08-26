@@ -1,0 +1,74 @@
+header {
+    background-color: #00274C; /* Dark blue background */
+    color: #FFFFFF; /* White text */
+    padding: 1.5rem 0;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 2rem;
+}
+
+.logo h1 {
+    font-size: 2rem;
+    margin: 0;
+}
+
+.logo p {
+    font-size: 1rem;
+    margin-top: 0.5rem;
+    color: #cccccc; /* Slightly lighter for the subtitle */
+}
+
+.nav-menu ul {
+    list-style-type: none;
+    display: flex;
+}
+
+.nav-menu ul li {
+    margin-left: 2rem;
+}
+
+.nav-menu ul li a {
+    color: #FFFFFF;
+    text-decoration: none;
+    font-size: 1rem;
+    transition: color 0.3s;
+}
+
+.nav-menu ul li a:hover {
+    color: #FFCB05; /* Maize yellow hover effect */
+}
+
+@media (max-width: 768px) {
+    .header-container {
+        flex-direction: column;
+    }
+    
+    .nav-menu ul {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .nav-menu ul li {
+        margin: 1rem 0;
+    }
+}
+
+.sticky-header {
+    padding: 10px 0;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1000; /* Ensures the header stays on top of other content */
+}
+
+/* Make the header sticky */
+.sticky-header {
+    position: -webkit-sticky; /* For Safari */
+    position: sticky;
+}
