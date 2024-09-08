@@ -9,6 +9,11 @@ import { CertificationsComponent } from './certifications/certifications.compone
 
 export const routes: Routes = [
     {
+        path: '',
+        redirectTo: '/about',
+        pathMatch: 'full'
+    },
+    {
         path: 'about',
         component: AboutComponent
     },
